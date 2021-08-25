@@ -48,6 +48,8 @@
                     {path: '/IfPage', name: 'IfPage', navName: 'IfPage'},
                     {path: '/OnPage', name: 'OnPage', navName: 'OnPage'},
                     {path: '/FormPage', name: 'FormPage', navName: 'FormPage'},
+                    {path: '/ComponentPage', name: 'ComponentPage', navName: 'ComponentPage'},
+                    {path: '/CompositionAPIPage', name: 'CompositionAPIPage', navName: 'CompositionAPIPage'},
                     {path: '/404', navName: '未知'},
                 ],
                 path: window.location.pathname,

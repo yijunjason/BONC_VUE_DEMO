@@ -8,6 +8,8 @@ const routes = [
     {path: '/IfPage', name:'IfPage', component: () => import('../components/IfPage'), props: true},
     {path: '/OnPage', name:'OnPage', component: () => import('../components/OnPage'), props: true},
     {path: '/FormPage', name:'FormPage', component: () => import('../components/FormPage'), props: true},
+    {path: '/ComponentPage', name:'ComponentPage', component: () => import('../components/ComponentPage'), props: true},
+    {path: '/CompositionAPIPage', name:'CompositionAPIPage', component: () => import('../components/CompositionAPIPage'), props: true},
     {path: '/:catchAll(.*)', name: '404', component: () => {return import("../components/404")}, props: true},
     // {path: '/:catchAll(.*)', redirect: '/404'},
 ];
