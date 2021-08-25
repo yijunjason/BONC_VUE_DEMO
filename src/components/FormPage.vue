@@ -97,7 +97,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .el-select {
         width: 130px;
     }
