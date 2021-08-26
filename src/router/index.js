@@ -10,6 +10,7 @@ const routes = [
     {path: '/FormPage', name:'FormPage', component: () => import('../components/FormPage'), props: true},
     {path: '/ComponentPage', name:'ComponentPage', component: () => import('../components/ComponentPage'), props: true},
     {path: '/CompositionAPIPage', name:'CompositionAPIPage', component: () => import('../components/CompositionAPIPage'), props: true},
+    {path: '/EchartsPage', name:'EchartsPage', component: () => import('../components/EchartsPage'), props: true},
     {path: '/:catchAll(.*)', name: '404', component: () => {return import("../components/404")}, props: true},
     // {path: '/:catchAll(.*)', redirect: '/404'},
 ];
